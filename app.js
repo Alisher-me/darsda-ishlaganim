@@ -106,8 +106,48 @@
 // let arr=[10,20,30,40,50];
 // console.log(arr.slice(1,3));
 //31
-let fruits=['apple','banana','apple','orange','apple'];
-console.log(fruits.lastIndexOf('apple'));
+// let fruits=['apple','banana','apple','orange','apple'];
+// console.log(fruits.lastIndexOf('apple'));
+//32
+// let nums=[3,8,11,14,17,20];
+// let juft=nums.filter(n=>n);
+//33
+// let ages =[12,15,22,16]
+// console.log(ages.includes(n=>n>18))
+
+//34
+// let arr =['middle']
+// arr.unshift('start')
+// arr.push('end')
+// console.log(arr)
+
+//35
+// let langs=['HTML','CSS','JS']
+// console.log(langs.indexOf('CSS'))
+
+//36
+// let colors=['red','green','blue','yellow']
+// colors.reverse()
+// colors.shift()
+// console.log(colors)
+
+//37
+// let nums = [4, 8, 10, 6, 12]
+// let s = nums.reduce((a, b) => a + b) / nums.length
+// console.log(s)
+
+//38
+// let items = ["pen", "book", "pen", "pencil", "book", "eraser"];
+// let result = items.filter(item => items.indexOf(item) === items.lastIndexOf(item));
+// console.log(result);
+
+//39
+// let fruits=['apple','banana','orange']
+// let r = fruits.map(word => word.toUpperCase()).reverse()
+// console.log(r)
+
+//40
+let nums=[-3,4,-1,6,0];
 
 
 
